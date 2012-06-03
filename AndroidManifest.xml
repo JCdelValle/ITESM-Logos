@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aukix.jcdelvalle.itesmlogos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="7" />
+	
+	<application android:icon="@drawable/ic_itesm" android:label="@string/app_name" >
+	   	<!-- WIDGET -->
+	    <receiver android:name=".Widget_4x1" android:label="@string/app_name">
+	         <intent-filter>
+	            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+	         </intent-filter>
+	         <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_4x1_provider" />
+	     </receiver>
+		<!-- //WIDGET -->
+		
+		<!-- ACTIVITY ADDED FOR THE WIDGET -->
+		<activity android:name=".Widget_4x1_Config" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+		    </intent-filter>
+		</activity>
+		<!-- //ACTIVITY ADDED FOR THE WIDGET -->
+	
+    </application>
+	
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_marginTop="15dip"
+    android:layout_marginBottom="20dip">
+    <!-- IMAGE -->
+    <ImageView android:id="@+id/iv_logo"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:background="@null"
+       	android:src="@drawable/borregoscem_white">
+    </ImageView>
+</RelativeLayout>

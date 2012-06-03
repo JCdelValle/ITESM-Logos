@@ -1,0 +1,12 @@
+<!-- CELDAS = ((X*74)-2) -->
+<!-- 72 -->
+<!-- 146 -->
+<!-- 220 -->
+<!-- 294 -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:minWidth="72dip"
+    android:minHeight="72dip"
+    android:updatePeriodMillis="2000"
+    android:initialLayout="@layout/widget_4x1"
+    android:configure="com.aukix.jcdelvalle.itesmlogos.Widget_4x1_Config" 
+/>
